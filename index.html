@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="author" content="Björn Andersson">
+    <title></title>
+</head>
+<body>
+    
+    <div id="test" class="test">
+        <p>bJÖrn Är en lUSTiG Typ</p>
+        <p>fredrik SKALL HJÄLPA MIG</p>
+        <p>HöHöHöHöHöHöHöHöHö</p>
+    </div>
+    
+
+    <button id="myBtn">click me</button>
+    <div id="textDiv">Bla</div>
+
+
+    <button onclick="txtChange()" id="myBtn">Click to change text</button>
+    <p id="myP"></p>
+
+    <button id="pButton" onclick="clickP()">pButton</button>
+    <p id="changeP" onclick="clickP()">I am text about to change- CLICK ME</p>
+
+
+    <button id="colorChange" onclick="changeColor()">Click to change the text color below</button>
+    <p id="changeMyColor">Change this!</p>
+
+    <button id="listAdd" onclick="addListItem()">Click to add item to list</button>
+    <ul id="myList">
+    </ul>
+
+
+<form id="myForm" novalidate>
+    <div class="flex">
+        <label for="email">email</label>
+        <input id="email" type="email">
+        <button id="emailValid" onclick="validateEmail(event)" type="submit">validate email</button>
+    </div>
+    <div class="flex">
+        <label for="password">Password</label>
+        <input id="password" type="password">
+        <button id="passwordValid" onclick="validatePassword(event)" type="submit">validate password</button>
+    </div>
+    <button id="validateAll" onclick="validateForm(event)" type="submit">Validate all</button>
+</form>
+
+
+    <div class="regexp-container">
+        <form id="regExp" novalidate onsubmit="fOne(event)">
+            <div>
+                <input id="name1" type="text" placeholder="Name" required>
+                <label id="nameText" for="name1">Input Name</label>
+            </div>
+
+            <div>
+                <input id="email1" type="email" placeholder="Email" required>
+                <label id="emailText" for="email1">Input E-mail</label>
+            </div>
+
+            <div>
+                <input id="pasword1" type="password" placeholder="Password" required>
+                <label id="passwordText" for="password1">Input Password</label>
+            </div>
+
+            <div>
+                <input id="confirmPassword1" type="password" placeholder="Confirm password">
+                <label id="confirmText" for="confirmPassword1">Confirm Password</label>
+            </div>
+            
+            <button type="submit" id="regExpBtn">RegExp Btn</button>
+        </form>
+    </div>
+
+
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

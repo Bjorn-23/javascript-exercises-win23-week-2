@@ -1,0 +1,81 @@
+
+
+.btn-change {
+    background-color: #7878f199;
+    padding: 5px 25px;
+    border-radius: 25px;
+    
+    &:hover {
+        background-color: #f77373;
+        color: #431a1a;
+    }
+}
+
+
+#myBtn {
+margin: 50px 0 0;
+}
+
+
+#pButton {
+    margin: 50px 0 0;
+}
+
+#colorChange {
+    margin: 50px 0 0;
+}
+
+#listAdd {
+    margin: 50px 0 0;
+}
+
+#validateAll {
+    background-color: rgba(255, 0, 0, 0.208);
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.regexp-container {
+    margin: 50px 0;
+}
+
+.regexp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    margin: 25px 0;
+}
+
+label {
+    display: block;
+    margin: 5px 0 0;
+}
+
+input {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.error {
+    color: rgb(58, 5, 5);
+    background-color: rgba(255, 0, 0, 0.105);
+    border: 1px solid rgba(255, 0, 0, 0.705);
+}
